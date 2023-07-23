@@ -1,0 +1,61 @@
+/* Start by resetting default margins and paddings for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the main content horizontally and vertically */
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 91vh;
+}
+
+/* Style the "Увы, ты проиграл(а)!😔😢😭" message */
+.message p:first-child {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style the general text */
+.message p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Style the "Сыграть еще раз" button */
+.play-again-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.play-again-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style the green text */
+.green-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: green;
+}

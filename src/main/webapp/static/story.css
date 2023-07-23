@@ -1,0 +1,90 @@
+/* Reset some default styles for better consistency */
+body, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Main content container styles */
+.content {
+    text-align: center;
+}
+
+/* Main text styles */
+.text {
+    font-size: 28px; /* Increased font size */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text-a {
+    font-size: 28px; /* Increased font size */
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1e8a00;
+}
+
+.text-b {
+    font-size: 28px; /* Increased font size */
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(210, 0, 0, 0.78);
+}
+
+/* Buttons styles */
+.ui-button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px; /* Increased font size */
+    color: white;
+    background-color: #007bff; /* Blue shade - you can adjust the color as needed */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.ui-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+}
+
+.ui-button:hover {
+    background-color: #0056b3; /* Darker blue shade on hover */
+}
+
+/* Statistic container styles */
+.statistic {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Statistic text styles */
+.statistic p {
+    font-size: 16px; /* Increased font size */
+    margin: 5px 0;
+}
